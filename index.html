@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Page title displayed in the browser tab -->
+    <title>Skymart Buy</title>
+
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing the 'Poppins' font family from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation section for logo and menu items -->
+        <div class="navigation-section">
+            <!-- Logo section with image and text -->
+            <div class="logo">
+                <img src="/images/logo.png" class="logo-img" />
+                <p class="logo-text">Skymart Buy</p>
+            </div>
+            <!-- Menu links for navigation -->
+            <div class="menu">
+                <a class="menu-items" href="#">Home</a>
+                <a class="menu-items" href="#">About</a>
+                <a class="menu-items" href="#">Contact</a>
+                <a class="menu-items" href="#">Sign up</a>
+            </div>
+        </div>
+
+        <!-- Hero section with title, description, and a call-to-action button -->
+        <div class="hero-section">
+            <h1 class="hero-title">Skymart <span>Buy</span></h1>
+            <p class="hero-para">Groceries delivered by drones right to your… doorstep!</p>
+            <a class="hero-btn" href="#">Order Now</a>
+            <img src="/images/hero.png" class="hero-img" />
+        </div>
+
+        <!-- Informational section about service offerings -->
+        <div class="info-section">
+            <div class="info">
+                <img src="/images/pal9000.jpg" />
+                <div class="info-div">
+                    <h2>Elevating Grocery Delivery</h2>
+                    <p>Is it a bird? Is it a plane? Nope, it’s a Skymart drone delivering your groceries with the latest
+                        tech! No more long waits or heavy bags—just fast and efficient delivery straight to you. Want to
+                        see our trusted partners? <a href="#">Check them out here.</a></p>
+                </div>
+            </div>
+
+            <!-- Display of some statistics related to the service -->
+            <div class="stats">
+                <div class="stat-1">
+                    <h3 class="stats-h3">Drones 🚁</h3>
+                    <p class="stats-p">5000+</p>
+                </div>
+
+                <div class="stat-2">
+                    <h3 class="stats-h3">Customers 👥</h3>
+                    <p class="stats-p">150,000+</p>
+                </div>
+
+                <div class="stat-3">
+                    <h3 class="stats-h3">Cat conflicts 🐈</h3>
+                    <p class="stats-p">60+</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About section with background story -->
+        <div class="about-section">
+            <h2>Our <span>Story</span></h2>
+            <p>Skymart was founded by Taylor Morgan, a trailblazer in both drone technology and grocery logistics. 🚁 Our
+                mission is to simplify your life by using advanced drones to deliver groceries quickly and
+                effortlessly.</p>
+            <p>Curious about our story? Learn more on our about page!</p>
+            <a href="#">About Skymart</a>
+        </div>
+
+        <!-- Signup form section -->
+        <div class="form-section">
+            <form>
+                <h2 class="form-heading">Sign up</h2>
+                <p class="form-para">Enter your contact information, and then there will be cake. 🍰</p>
+
+                <!-- Input fields for user details -->
+                <label for="full-name">Full name</label>
+                <input class="form-input" type="text" placeholder="Sherlock Holmes" id="full-name" />
+
+                <label for="address">Address</label>
+                <input class="form-input" type="text" placeholder="221B Baker Street" id="address" />
+
+                <!-- Address input split into city and postcode -->
+                <div class="address">
+                    <div class="city">
+                        <label for="city">City</label>
+                        <select type="text" placeholder="London" id="city" class="form-city">
+                            <option value="london">London</option>
+                            <option value="manchester">Manchester</option>
+                            <option value="leeds">Leeds</option>
+                        </select>
+                    </div>
+
+                    <div class="postcode">
+                        <label for="postcode">Postcode</label>
+                        <input type="text" placeholder="NW1 6XE" id="postcode" class="form-address" />
+                    </div>
+                </div>
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="sherlock.holmes@gmail.com" id="email" class="form-input" />
+
+                <!-- Radio buttons for additional user information -->
+                <div class="radio-container">
+                    <p>Do you have cats?</p>
+                    <label for="yes">Yes</label>
+                    <input class="form-radio" type="radio" id="yes" name="cats" />
+                    <label for="no">No</label>
+                    <input class="form-radio" type="radio" id="no" name="cats" />
+                </div>
+
+                <!-- Form submission button -->
+                <button class="form-btn" type="button">Submit</button>
+            </form>
+            <!-- Image accompanying the form -->
+            <img class="form-image" src="images/drone-contact.png" alt="A woman seeing a drone approaching." />
+        </div>
+
+        <!-- Footer section with social media links -->
+        <div class="footer-section">
+            <a class="social-link" href="#">
+                <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                <p>Facebook</p>
+            </a>
+            <a class="social-link" href="#">
+                <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                <p>Instagram</p>
+            </a>
+            <a class="social-link" href="#">
+                <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                <p>LinkedIn</p>
+            </a>
+            <a class="social-link" href="#">
+                <ion-icon name="logo-twitter" class="icon"></ion-icon>
+                <p>Twitter</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Import icons for use in the footer -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
